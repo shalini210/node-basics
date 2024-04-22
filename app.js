@@ -14,10 +14,11 @@ app.get("/about",(req,res)=>
 })
 app.get("/contact",(req,res)=>
 {
+    res.send("welcome "+ req.query.username +" your registered email is : "+req.query.contact)
     // res.send("this is about ")
-    console.log(req.query);
+    // console.log(req.query);
     // res.send("welcome "+ req.query.username)
-    res.sendFile(__dirname+"/contact.html")
+    // res.sendFile(__dirname+"/contact.html")
     // res.send({"name":"sdf"})
 })
 app.post("/",(req,res)=>
