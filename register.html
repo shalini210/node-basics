@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="post" action="http://localhost:3000/userregister">
+        <p>Name: <input type="text" name="name" required></p>
+        <p>Email: <input type="email" name="email" required></p>
+        <p>Gender: <input type="radio" name="gender" id="" checked>MAle <br>
+            <input type="radio" name="gender" id="">FeMAle <br></p>
+            <p>City : <select name="city" required>
+                <option value="Indore">Indore</option>
+                <option value="Ahmedabad">Ahmedabad</option>
+                <option value="Gandhinagar">Gandhinagar</option>
+            </select></p>
+            <input type="submit" value="Register">
+            <input type="reset" value="reset"/>
+    </form>
+</body>
+</html>

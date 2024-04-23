@@ -1,0 +1,3 @@
+{"name":"Maria","email":"mascotmegha.2012@gmail.com","gender":"on","city":"Ahmedabad"},
+{"name":"demo","email":"mascotmegha.2012@gmail.com","gender":"on","city":"Indore"},
+{"name":"rtretr","email":"s.rathore43@gmail.com","gender":"on","city":"Gandhinagar"},
