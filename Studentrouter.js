@@ -1,19 +1,23 @@
 const express = require("express");
+const Scontroller = require("./studentcontroller")
 const router = express.Router();
 router.get("/",(req,res)=>
 {
-    res.send("st udent home ")
+    // res.send("st udent home ")
+    Scontroller.showallStudentS(req,res)
 })
-router.get("/insertstudent",(req,res)=>
+router.post("/",(req,res)=>
 {
-    res.send("insert student section");
+    console.log(req.body)
+    res.send(req.body.name +" inserted successfully");
 })
-router.get("/updatestudent",(req,res)=>
+router.put("/",(req,res)=>
 {
     res.send("update student section");
 })
-router.get("/deletestudent",(req,res)=>
+router.delete("/",(req,res)=>
 {
+    console.log(req.body)
     res.send("delete student section");
 })
 // exports.default =  router;
