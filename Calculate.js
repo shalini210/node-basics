@@ -9,5 +9,5 @@ exports.factorial=(n)=>
 }
 exports.square=(n)=>
 {
-    return n*n;
+    return n*n*n;
 }
